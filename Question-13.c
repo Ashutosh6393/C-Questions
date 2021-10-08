@@ -1,6 +1,6 @@
 //Input a number and chech if it is armstrong or not.
 #include <stdio.h>
-int main()
+void main()
 {
     int a, sum = 0, b;
 

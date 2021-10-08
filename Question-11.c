@@ -1,6 +1,6 @@
 //Input two numbers and print greatest of them
 #include<stdio.h>
-int main(){
+void main(){
     int a,b;
     printf("Enter two numbers whith a space : ");
     scanf("%d %d",&a,&b);
@@ -11,6 +11,5 @@ int main(){
     else{
         printf("%d is greater than %d ",b,a);
     }
-    getchar();
-    return 0;
+
 }

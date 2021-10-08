@@ -1,6 +1,6 @@
 // Input two numbers and swap them
 #include<stdio.h>
-int main(){
+void main(){
     int a,b,c;
     printf("Enter the value of a :");
     scanf("%d",&a);
@@ -11,8 +11,7 @@ int main(){
     a=c;
     printf("The value of a is %d ",a);
     printf("\nThe value of b is %d ",b);
-    getchar();
-    return 0;
+
 
     
 }

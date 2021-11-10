@@ -1,4 +1,4 @@
-// Input 5 digit number and print its sum
+// Input 5 digit number and print its sum()
 
 #include<stdio.h>
 void main(){
@@ -10,7 +10,7 @@ void main(){
     {
         b=num%(10);
         sum=sum+b;
-        num=(num-(b))/10;
+        num=(num)/10;
 
     }
     printf("The sum is : %d",sum);

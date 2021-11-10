@@ -18,4 +18,5 @@ void main()
         printf("%d is an armstrong number", a);
     else
         printf("%d is not an armstrong number", a);
+    
 }

@@ -1,4 +1,4 @@
-//to check the character is vowel or not 
+//Write a program to check the character is vowel or not 
 #include<stdio.h>
 void main(){
     char a[10]={'a','e','i','o','u','A','E','I','O','U'};

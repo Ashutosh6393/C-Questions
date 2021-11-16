@@ -1,10 +1,10 @@
-//Input a number and chech if it is armstrong or not.
+//Input a 3 number and chech if it is armstrong or not.
 #include <stdio.h>
 void main()
 {
     int a, sum = 0, b;
 
-    printf("\nEnter a number to chech  if it is armstrong : ");
+    printf("\nEnter a 3 number to chech  if it is armstrong : ");
     scanf("%d", &a);
     int c = a;
     while (c > 0)

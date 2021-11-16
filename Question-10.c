@@ -15,6 +15,4 @@ void main(){
     }
     printf("The sum is : %d",sum);
 
-
-
 }

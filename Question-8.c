@@ -7,6 +7,4 @@ void main(){
     cel=((far-32.0)*5)/9;
     printf("The temperature in celsius is %.2f",cel);    
 
-
-
 }

@@ -2,8 +2,8 @@
 #include<stdio.h>
 void main(){
     float len;
-    printf("Enter length of side of the square : ");
+    printf("\nEnter length of side of the square : ");
     scanf("%f",&len);
-    printf("The area of the square is %.2f: ",len*len);
+    printf("The area of the square is %.2f\n ",len*len);
 
 }

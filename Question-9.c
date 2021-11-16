@@ -11,6 +11,7 @@ void main(){
     a=c;
     printf("The value of a is %d ",a);
     printf("\nThe value of b is %d ",b);
+    
     // without using thrird variable 
 
     int x,y;

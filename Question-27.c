@@ -12,16 +12,13 @@ void main(){
         printf("enter the value of 1st array : ");
         scanf("%d",&b);
         arr1[i]=b;
-
     }
     printf("\n");
     int arr2[c];
     for(int j=0;j<c; j++){
         printf("enter the value of 2nd array : ");
         scanf("%d",&d);
-        arr2[j]=d;
-
-        
+        arr2[j]=d;       
     }
     int arr3[a+c];
     for(int v=0; v<a;v++){
@@ -29,13 +26,10 @@ void main(){
     }
     for (int u=0; u<b; u++){
         arr3[u+a]=arr2[u];
-    }
-    
-    
+    } 
     int x=0;
     while(x!=a+c){
         printf("The merged array is %d ",arr3[x]);
         x=x+1;
-    }
-    
+    }   
 }
